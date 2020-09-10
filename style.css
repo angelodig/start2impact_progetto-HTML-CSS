@@ -1,0 +1,129 @@
+* {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+body::after {
+  content: "";
+  background-image: url("https://image.shutterstock.com/image-vector/hand-drawn-doodle-web-site-600w-544566373.jpg");
+  opacity: 0.1;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.formatTitle {
+  color: #00A538;
+  font-size: 90px;
+  padding-left: 150px;
+}
+
+/* MY APP SECTION STYLE */
+.rectangleAppBasicLayout {
+  border-radius: 25px;
+
+  position: relative;
+  width: 599px;
+  height: 240px;
+
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.firstAppRectangle {
+  background-color: #508991;
+}
+
+.secondAppRectangle {
+  background-color: #DC493A;
+}
+
+.thirdAppRectangle {
+  background-color: #4392F1;
+}
+
+.iconAppLayout {
+  width: 180px;
+  position: absolute;
+  margin: 30px;
+
+  /*filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));*/
+  border-radius: 25px;
+}
+
+.titleApp {
+  position: absolute;
+  width: 368px;
+  left: 220px;
+  top: 20px;
+  align-items: center;
+  text-align: center;
+
+  color: #F4FFF8;
+}
+
+.descriptionApp{
+  position: absolute;
+  width: 368px;
+  left: 220px;
+  top: 70px;
+  align-items: center;
+  text-align: center;
+
+  font-size: 24px;
+  color: #F4FFF8;
+}
+
+.appStoreLogoStyle {
+  width: 50px;
+  position: absolute;
+  left: 375px;
+  top: 150px;
+}
+
+/* ABOUT ME SECTION STYLE */
+#aboutMeRectangle {
+  background-color: #231F20;
+  border-radius: 25px;
+
+  position: relative;
+  width: 687px;
+  height: 330px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#descriptionText {
+  position: absolute;
+  width: 313px;
+  left: 10px;
+  top: 0;
+
+  color: #F4FFF8;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px;
+  text-align: left;
+  text-align: justify;
+}
+
+#contacts {
+  position: absolute;
+  width: 313px;
+  left: 350px;
+  top: 70px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #00A538;
+}
